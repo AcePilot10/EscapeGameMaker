@@ -211,80 +211,83 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="GETween">
-      <HintPath>Assets/Kits/GUI Animator/Common/Plugins/GETween.dll</HintPath>
-    </Reference>
-    <Reference Include="GUIAnimator">
-      <HintPath>Assets/Kits/GUI Animator/GUI Animator for Unity UI/Plugins/GUIAnimator.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/codyj/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/codyj/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="GETween">
+      <HintPath>Assets/Escape Game Assets/Kits/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+    </Reference>
+    <Reference Include="GUIAnimator">
+      <HintPath>Assets/Escape Game Assets/Kits/GUI Animator/GUI Animator for Unity UI/Plugins/GUIAnimator.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo00.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo01.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo02.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo03.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo04.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo05.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo06.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo07.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo08.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\DemoPlaySound.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\OpenOtherScene.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo Basic (CSharp)\Scripts\GA_UUI_DemoBasicControlledByScripts.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo Basic (CSharp)\Scripts\GA_UUI_DemoBasicControlledByScriptsShowRotateLoop.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\GAui.cs" />
-    <Compile Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\GSui.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_2DBGSky.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_2DWaterManager.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_BGFindCanvas.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_CloudManager.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Controllers\UIPT_PRO_ParticleController.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Controllers\UIPT_PRO_SoundController.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Achievement.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Config.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_GUIPanel.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Help.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_LevelClear.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_News.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_ParticleMask.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Pause.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_RankInfo.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Settings.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo01_IntroAndLoading.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo02_Home.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo03_LevelSelect.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo04_GameplayAndLevelClear.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo05_Ranks.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo06_Achievements.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo07_Social.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo08_MoreSamples.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo09_Credits.cs" />
-    <Compile Include="Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo10_Shop.cs" />
-    <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Inventory\InventorySlot.cs" />
-    <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
-    <Compile Include="Assets\Scripts\Items\Item.cs" />
-    <Compile Include="Assets\Scripts\Items\ItemTrigger.cs" />
-    <Compile Include="Assets\Scripts\Rooms\CurrentRoomUI.cs" />
-    <Compile Include="Assets\Scripts\Rooms\Room.cs" />
-    <Compile Include="Assets\Scripts\Rooms\RoomLoader.cs" />
-    <Compile Include="Assets\Scripts\Rooms\RoomManager.cs" />
-    <Compile Include="Assets\Scripts\Rooms\RoomTrigger.cs" />
-    <Compile Include="Assets\Scripts\Rooms\SubRoom.cs" />
-    <Compile Include="Assets\Scripts\Scene Management\SceneManager.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo00.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo01.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo02.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo03.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo04.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo05.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo06.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo07.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\Demo08.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\DemoPlaySound.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo (CSharp)\Scripts\OpenOtherScene.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo Basic (CSharp)\Scripts\GA_UUI_DemoBasicControlledByScripts.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Demo Basic (CSharp)\Scripts\GA_UUI_DemoBasicControlledByScriptsShowRotateLoop.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\GAui.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\GSui.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_2DBGSky.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_2DWaterManager.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_BGFindCanvas.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Background\UIPT_PRO_CloudManager.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Controllers\UIPT_PRO_ParticleController.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Controllers\UIPT_PRO_SoundController.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Achievement.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Config.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_GUIPanel.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Help.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_LevelClear.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_News.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_ParticleMask.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Pause.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_RankInfo.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo_Settings.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo01_IntroAndLoading.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo02_Home.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo03_LevelSelect.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo04_GameplayAndLevelClear.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo05_Ranks.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo06_Achievements.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo07_Social.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo08_MoreSamples.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo09_Credits.cs" />
+    <Compile Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Scripts\Demo\UIPT_PRO_Demo10_Shop.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Items\Item.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Items\ItemPlace.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Items\ItemTrigger.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Items\PlacedItemInteractable.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Rooms\CurrentRoomUI.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Rooms\Room.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Rooms\RoomLoader.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Rooms\RoomManager.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Rooms\RoomTrigger.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Rooms\SubRoom.cs" />
+    <Compile Include="Assets\Escape Game Assets\Scripts\Scene Management\SceneManager.cs" />
+    <Compile Include="Assets\Prototype Assets\TempPrefabs\TestItemPlace.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\!How to.txt" />
-    <None Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Readme.txt" />
-    <None Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\Editor\Note.txt" />
-    <None Include="Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\Note.txt" />
-    <None Include="Assets\Kits\UI Pack\Toony PRO\Readme.txt" />
+    <None Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\!How to.txt" />
+    <None Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Readme.txt" />
+    <None Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\Editor\Note.txt" />
+    <None Include="Assets\Escape Game Assets\Kits\GUI Animator\GUI Animator for Unity UI\Scripts\Note.txt" />
+    <None Include="Assets\Escape Game Assets\Kits\UI Pack\Toony PRO\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
