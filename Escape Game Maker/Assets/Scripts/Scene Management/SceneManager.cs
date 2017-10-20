@@ -26,8 +26,16 @@ namespace EscapeSceneManager
                 room.canvas.SetActive(true);
                 RoomManager.GetManager().currentRoom = room;
             }
-            catch (MissingReferenceException ex) {
+            catch (System.Exception ex) {
             }
+        }
+
+        public void LoadSubRoom(SubRoom room) {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(room.roomName, LoadSceneMode.Additive);
+        }
+
+        public void UnloadSubRoom(SubRoom room) {
+            UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(room.roomName);
         }
     }
 }

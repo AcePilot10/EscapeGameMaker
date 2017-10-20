@@ -8,8 +8,17 @@ namespace Items {
     {
 
         public Item item;
+        private bool clicked = false;
 
         public void TakeItem() {
+            if (!clicked)
+            {
+                GetComponent<GAui>().MoveOut();
+                clicked = true;
+            }
+        }
+
+        public void AnimationComplete() {
             Inventory.GetInventory().AddItem(item);
             GameObject.Destroy(gameObject);
         }
