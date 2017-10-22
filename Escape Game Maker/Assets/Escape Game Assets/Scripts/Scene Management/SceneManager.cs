@@ -27,6 +27,7 @@ namespace EscapeSceneManager
                 RoomManager.GetManager().currentRoom = room;
             }
             catch (System.Exception ex) {
+              //  Debug.Log("Error while loading room: " + ex);
             }
         }
 

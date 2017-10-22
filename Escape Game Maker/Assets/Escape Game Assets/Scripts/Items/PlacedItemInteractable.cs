@@ -9,7 +9,7 @@ namespace Items {
 
         private bool used = false;
 
-        public void Interact() {
+        public virtual void Interact() {
             if (!used)
             {
                 OnInteract();

@@ -7,24 +7,30 @@ namespace Rooms {
     public class RoomTrigger : MonoBehaviour
     {
 
-        public Room room;
+        protected Room room;
+        public string roomName;
 
-        public void LoadRoom()
+        private void Start()
+        {
+            room = RoomManager.GetManager().GetRoom(roomName);
+        }
+
+        public virtual void LoadRoom()
         {
             if (!room.locked) {
                 RoomManager.GetManager().LoadRoom(room);
-                Debug.Log("Loaded room: " + room.roomName);
+              //  Debug.Log("Loaded room: " + room.roomName);
             }
         }
 
-        public void LoadSubRoom() {
+        public virtual void LoadSubRoom() {
             if (!room.locked) {
                 SceneManager sceneManager = GameObject.FindObjectOfType<SceneManager>();
                 sceneManager.LoadSubRoom((SubRoom)room);
             }
         }
 
-        public void UnloadSubRoom() {
+        public virtual void UnloadSubRoom() {
             SceneManager sceneManager = GameObject.FindObjectOfType<SceneManager>();
             sceneManager.UnloadSubRoom((SubRoom)room);
         }

@@ -25,7 +25,7 @@ namespace InventorySystem {
                 if (!slot.isEnabled) {
                     slot.item = item;
                     slot.Display(item);
-                    Debug.Log("Displaying item with unique ID of: " + item.ID);
+                    //Debug.Log("Displaying item with unique ID of: " + item.ID);
                     break;
                 }
             }

@@ -8,14 +8,14 @@ namespace Rooms {
 
         public string roomName;
         public bool locked = false;
-        public GameObject canvas;
+        [HideInInspector]public GameObject canvas;
 
         public void FindCanvas() {
             GameObject[] canvases = GameObject.FindGameObjectsWithTag("Canvas");
             foreach (GameObject obj in canvases) {
                 if (obj.scene.name == roomName) {
                     canvas = obj;
-                    Debug.Log("Initialized canvas for: " + roomName);
+                    //Debug.Log("Initialized canvas for: " + roomName);
                     break;
                 }
             }

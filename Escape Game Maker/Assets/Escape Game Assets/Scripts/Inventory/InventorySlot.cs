@@ -21,7 +21,7 @@ namespace InventorySystem {
             this.isEnabled = true;
             image.sprite = item.icon;
             image.enabled = true;
-            Debug.Log("Item has been displayed on: " + image.gameObject.name);
+          //  Debug.Log("Item has been displayed on: " + image.gameObject.name);
         }
 
         public void Select() {

@@ -11,7 +11,11 @@ namespace InventorySystem {
 
         public List<Item> items = new List<Item>();
 
+        public List<Item> allItems;
+
         public InventorySlot currentlySelected = null;
+
+        private Vector3 normalSlotSize;
 
         public static Inventory GetInventory()
         {
@@ -21,6 +25,7 @@ namespace InventorySystem {
         void Start()
         {
             instance = this;
+            normalSlotSize = InventoryUI.Get().slots.GetChild(0).transform.localScale;
         }
 
         public bool HasItem(int id) {
@@ -32,7 +37,7 @@ namespace InventorySystem {
             return false;
         }
 
-        public Item GetItem(int id)
+        public Item GetItemFromInventory(int id)
         {
             if (HasItem(id))
             {
@@ -47,6 +52,15 @@ namespace InventorySystem {
             return null;
         }
 
+        public Item GetItemFromAll(int id) {
+            foreach (Item item in allItems) {
+                if (item.ID == id) {
+                    return item;
+                }
+            }
+            return null;
+        }
+
         public void AddItem(Item item)
         {
             items.Add(item);
@@ -55,18 +69,23 @@ namespace InventorySystem {
 
         public void RemoveItem(int id) {
             if (HasItem(id)) {
-                items.Remove(GetItem(id));
+                items.Remove(GetItemFromInventory(id));
             }
         }
 
         public void SelectItem(InventorySlot slot) {
             if (currentlySelected != null) {
                 currentlySelected.GetComponent<GAui>().MoveOut();
-                Debug.Log("Moving out item slot with item: " + currentlySelected.item.ID);
+                currentlySelected.gameObject.transform.localScale = normalSlotSize;
+                // Debug.Log("Moving out item slot with item: " + currentlySelected.item.ID);
+                if (currentlySelected == slot) {
+                    currentlySelected = null;
+                    return;
+                }
             }
             currentlySelected = slot;
             slot.gameObject.GetComponent<GAui>().MoveIn();
-            Debug.Log("Selected item: " + slot.item.ID);
+           // Debug.Log("Selected item: " + slot.item.ID);
         }
     }
 }

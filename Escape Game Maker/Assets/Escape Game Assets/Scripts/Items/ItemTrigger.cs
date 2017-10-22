@@ -7,20 +7,34 @@ namespace Items {
     public class ItemTrigger : MonoBehaviour
     {
 
-        public Item item;
+        private Item item;
         private bool clicked = false;
+        public int id;
 
-        public void TakeItem() {
+        private void Start()
+        {
+            item = Inventory.GetInventory().GetItemFromAll(id);
+        }
+
+        public virtual void TakeItem()
+        {
             if (!clicked)
             {
                 GetComponent<GAui>().MoveOut();
                 clicked = true;
             }
+            else return;
         }
 
-        public void AnimationComplete() {
+        public void AnimationComplete()
+        {
             Inventory.GetInventory().AddItem(item);
             GameObject.Destroy(gameObject);
+        }
+
+        public Item GetItem()
+        {
+            return this.item;
         }
     }
 }

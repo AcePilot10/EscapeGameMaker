@@ -9,15 +9,17 @@ namespace Items {
     {
 
         public Item item;
+        public int itemID;
         private Image img;
         public bool used = false;
 
         private void Start()
         {
+            item = Inventory.GetInventory().GetItemFromAll(itemID);
             img = GetComponent<Image>();
         }
 
-        public void PlaceItem() {
+        public virtual void PlaceItem() {
             if (!used)
             {
                 if (Inventory.GetInventory().currentlySelected.item.ID == item.ID)
