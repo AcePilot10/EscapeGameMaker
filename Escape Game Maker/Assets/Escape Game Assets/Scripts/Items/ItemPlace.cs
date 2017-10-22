@@ -8,7 +8,7 @@ namespace Items {
     public class ItemPlace : MonoBehaviour
     {
 
-        public Item item;
+        private Item item;
         public int itemID;
         private Image img;
         public bool used = false;

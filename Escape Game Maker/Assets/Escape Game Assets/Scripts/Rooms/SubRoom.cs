@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Rooms
 {
     public class SubRoom : Room
-    {
+    { 
 
     }
 }

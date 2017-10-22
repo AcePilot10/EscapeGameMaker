@@ -9,7 +9,7 @@ namespace InventorySystem {
 
         private static Inventory instance;
 
-        public List<Item> items = new List<Item>();
+        private List<Item> items = new List<Item>();
 
         public List<Item> allItems;
 
